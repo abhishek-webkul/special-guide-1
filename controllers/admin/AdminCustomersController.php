@@ -30,6 +30,7 @@
 class AdminCustomersControllerCore extends AdminController
 {
     protected $delete_mode;
+    protected $delete_mode_999 = 0;
 
     protected $_defaultOrderBy = 'date_add';
     protected $_defaultOrderWay = 'DESC';
